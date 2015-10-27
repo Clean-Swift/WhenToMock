@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mOU-1d-XR7">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--User View Controller-->
+        <scene sceneID="SRv-tq-y4h">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mOU-1d-XR7" customClass="UserViewController" customModule="WhenToMock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="dsm-fn-dZn"/>
+                        <viewControllerLayoutGuide type="bottom" id="VfA-6I-lxN"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="rxG-Na-4g5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBj-3x-TM4">
+                                <rect key="frame" x="175" y="286" width="45" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bYJ-tZ-COl">
+                                <rect key="frame" x="175" y="28" width="250" height="250"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="C25-S6-r8t"/>
+                                    <constraint firstAttribute="height" constant="250" id="vjO-4I-foL"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clK-GF-k8k">
+                                <rect key="frame" x="175" y="315" width="49" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bYJ-tZ-COl" firstAttribute="top" secondItem="dsm-fn-dZn" secondAttribute="bottom" constant="8" id="8SI-ex-yCp"/>
+                            <constraint firstItem="clK-GF-k8k" firstAttribute="top" secondItem="oBj-3x-TM4" secondAttribute="bottom" constant="8" id="F48-gx-zM8"/>
+                            <constraint firstItem="oBj-3x-TM4" firstAttribute="top" secondItem="bYJ-tZ-COl" secondAttribute="bottom" constant="8" id="JCF-65-p1X"/>
+                            <constraint firstItem="oBj-3x-TM4" firstAttribute="leading" secondItem="bYJ-tZ-COl" secondAttribute="leading" id="cas-e7-F40"/>
+                            <constraint firstItem="clK-GF-k8k" firstAttribute="leading" secondItem="oBj-3x-TM4" secondAttribute="leading" id="pAc-LR-2Aq"/>
+                            <constraint firstItem="bYJ-tZ-COl" firstAttribute="centerX" secondItem="rxG-Na-4g5" secondAttribute="centerX" id="w76-aX-WmK"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="oBj-3x-TM4" id="XqX-D9-MhE"/>
+                        <outlet property="phoneLabel" destination="clK-GF-k8k" id="3eq-kI-I7r"/>
+                        <outlet property="profilePhotoImageView" destination="bYJ-tZ-COl" id="aie-7C-dqO"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LN9-CN-eSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="627" y="551"/>
         </scene>
     </scenes>
 </document>

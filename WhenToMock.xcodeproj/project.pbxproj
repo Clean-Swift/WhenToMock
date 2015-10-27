@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		71EBC6001BDF22D100C052F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC5FF1BDF22D100C052F5 /* AppDelegate.swift */; };
-		71EBC6021BDF22D100C052F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6011BDF22D100C052F5 /* ViewController.swift */; };
 		71EBC6051BDF22D100C052F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EBC6031BDF22D100C052F5 /* Main.storyboard */; };
 		71EBC6071BDF22D100C052F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EBC6061BDF22D100C052F5 /* Assets.xcassets */; };
 		71EBC60A1BDF22D100C052F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EBC6081BDF22D100C052F5 /* LaunchScreen.storyboard */; };
-		71EBC6151BDF22D100C052F5 /* WhenToMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6141BDF22D100C052F5 /* WhenToMockTests.swift */; };
-		71EBC6201BDF22D100C052F5 /* WhenToMockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC61F1BDF22D100C052F5 /* WhenToMockUITests.swift */; };
+		71EBC6521BDF23A000C052F5 /* UserConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64B1BDF23A000C052F5 /* UserConfigurator.swift */; };
+		71EBC6531BDF23A000C052F5 /* UserConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64B1BDF23A000C052F5 /* UserConfigurator.swift */; };
+		71EBC6541BDF23A000C052F5 /* UserConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64B1BDF23A000C052F5 /* UserConfigurator.swift */; };
+		71EBC6551BDF23A000C052F5 /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64C1BDF23A000C052F5 /* UserInteractor.swift */; };
+		71EBC6561BDF23A000C052F5 /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64C1BDF23A000C052F5 /* UserInteractor.swift */; };
+		71EBC6571BDF23A000C052F5 /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64C1BDF23A000C052F5 /* UserInteractor.swift */; };
+		71EBC6581BDF23A000C052F5 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64D1BDF23A000C052F5 /* UserModels.swift */; };
+		71EBC6591BDF23A000C052F5 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64D1BDF23A000C052F5 /* UserModels.swift */; };
+		71EBC65A1BDF23A000C052F5 /* UserModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64D1BDF23A000C052F5 /* UserModels.swift */; };
+		71EBC65B1BDF23A000C052F5 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64E1BDF23A000C052F5 /* UserPresenter.swift */; };
+		71EBC65C1BDF23A000C052F5 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64E1BDF23A000C052F5 /* UserPresenter.swift */; };
+		71EBC65D1BDF23A000C052F5 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64E1BDF23A000C052F5 /* UserPresenter.swift */; };
+		71EBC65E1BDF23A000C052F5 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64F1BDF23A000C052F5 /* UserRouter.swift */; };
+		71EBC65F1BDF23A000C052F5 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64F1BDF23A000C052F5 /* UserRouter.swift */; };
+		71EBC6601BDF23A000C052F5 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC64F1BDF23A000C052F5 /* UserRouter.swift */; };
+		71EBC6611BDF23A000C052F5 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6501BDF23A000C052F5 /* UserViewController.swift */; };
+		71EBC6621BDF23A000C052F5 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6501BDF23A000C052F5 /* UserViewController.swift */; };
+		71EBC6631BDF23A000C052F5 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6501BDF23A000C052F5 /* UserViewController.swift */; };
+		71EBC6641BDF23A000C052F5 /* UserWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6511BDF23A000C052F5 /* UserWorker.swift */; };
+		71EBC6651BDF23A000C052F5 /* UserWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6511BDF23A000C052F5 /* UserWorker.swift */; };
+		71EBC6661BDF23A000C052F5 /* UserWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6511BDF23A000C052F5 /* UserWorker.swift */; };
+		71EBC6681BDF26E600C052F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6671BDF26E600C052F5 /* User.swift */; };
+		71EBC6691BDF26E600C052F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6671BDF26E600C052F5 /* User.swift */; };
+		71EBC66A1BDF26E600C052F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC6671BDF26E600C052F5 /* User.swift */; };
+		71EBC66C1BDF2D6E00C052F5 /* UserViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC66B1BDF2D6E00C052F5 /* UserViewControllerTests.swift */; };
+		71EBC66D1BDF2F3100C052F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EBC6031BDF22D100C052F5 /* Main.storyboard */; };
+		71EBC66E1BDF2F3200C052F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EBC6031BDF22D100C052F5 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +60,23 @@
 /* Begin PBXFileReference section */
 		71EBC5FC1BDF22D100C052F5 /* WhenToMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhenToMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EBC5FF1BDF22D100C052F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71EBC6011BDF22D100C052F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71EBC6041BDF22D100C052F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71EBC6061BDF22D100C052F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71EBC6091BDF22D100C052F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71EBC60B1BDF22D100C052F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71EBC6101BDF22D100C052F5 /* WhenToMockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhenToMockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71EBC6141BDF22D100C052F5 /* WhenToMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenToMockTests.swift; sourceTree = "<group>"; };
 		71EBC6161BDF22D100C052F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71EBC61B1BDF22D100C052F5 /* WhenToMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhenToMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71EBC61F1BDF22D100C052F5 /* WhenToMockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenToMockUITests.swift; sourceTree = "<group>"; };
 		71EBC6211BDF22D100C052F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71EBC64B1BDF23A000C052F5 /* UserConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserConfigurator.swift; path = Scenes/User/UserConfigurator.swift; sourceTree = "<group>"; };
+		71EBC64C1BDF23A000C052F5 /* UserInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserInteractor.swift; path = Scenes/User/UserInteractor.swift; sourceTree = "<group>"; };
+		71EBC64D1BDF23A000C052F5 /* UserModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserModels.swift; path = Scenes/User/UserModels.swift; sourceTree = "<group>"; };
+		71EBC64E1BDF23A000C052F5 /* UserPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserPresenter.swift; path = Scenes/User/UserPresenter.swift; sourceTree = "<group>"; };
+		71EBC64F1BDF23A000C052F5 /* UserRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserRouter.swift; path = Scenes/User/UserRouter.swift; sourceTree = "<group>"; };
+		71EBC6501BDF23A000C052F5 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewController.swift; path = Scenes/User/UserViewController.swift; sourceTree = "<group>"; };
+		71EBC6511BDF23A000C052F5 /* UserWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserWorker.swift; path = Scenes/User/UserWorker.swift; sourceTree = "<group>"; };
+		71EBC6671BDF26E600C052F5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Scenes/User/User.swift; sourceTree = "<group>"; };
+		71EBC66B1BDF2D6E00C052F5 /* UserViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +127,8 @@
 		71EBC5FE1BDF22D100C052F5 /* WhenToMock */ = {
 			isa = PBXGroup;
 			children = (
+				71EBC6491BDF238700C052F5 /* Scenes */,
 				71EBC5FF1BDF22D100C052F5 /* AppDelegate.swift */,
-				71EBC6011BDF22D100C052F5 /* ViewController.swift */,
 				71EBC6031BDF22D100C052F5 /* Main.storyboard */,
 				71EBC6061BDF22D100C052F5 /* Assets.xcassets */,
 				71EBC6081BDF22D100C052F5 /* LaunchScreen.storyboard */,
@@ -110,7 +140,7 @@
 		71EBC6131BDF22D100C052F5 /* WhenToMockTests */ = {
 			isa = PBXGroup;
 			children = (
-				71EBC6141BDF22D100C052F5 /* WhenToMockTests.swift */,
+				71EBC66B1BDF2D6E00C052F5 /* UserViewControllerTests.swift */,
 				71EBC6161BDF22D100C052F5 /* Info.plist */,
 			);
 			path = WhenToMockTests;
@@ -119,10 +149,32 @@
 		71EBC61E1BDF22D100C052F5 /* WhenToMockUITests */ = {
 			isa = PBXGroup;
 			children = (
-				71EBC61F1BDF22D100C052F5 /* WhenToMockUITests.swift */,
 				71EBC6211BDF22D100C052F5 /* Info.plist */,
 			);
 			path = WhenToMockUITests;
+			sourceTree = "<group>";
+		};
+		71EBC6491BDF238700C052F5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				71EBC64A1BDF238F00C052F5 /* User */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		71EBC64A1BDF238F00C052F5 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				71EBC64B1BDF23A000C052F5 /* UserConfigurator.swift */,
+				71EBC64C1BDF23A000C052F5 /* UserInteractor.swift */,
+				71EBC64D1BDF23A000C052F5 /* UserModels.swift */,
+				71EBC64E1BDF23A000C052F5 /* UserPresenter.swift */,
+				71EBC64F1BDF23A000C052F5 /* UserRouter.swift */,
+				71EBC6501BDF23A000C052F5 /* UserViewController.swift */,
+				71EBC6511BDF23A000C052F5 /* UserWorker.swift */,
+				71EBC6671BDF26E600C052F5 /* User.swift */,
+			);
+			name = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EBC66D1BDF2F3100C052F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EBC66E1BDF2F3200C052F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71EBC6021BDF22D100C052F5 /* ViewController.swift in Sources */,
+				71EBC6641BDF23A000C052F5 /* UserWorker.swift in Sources */,
+				71EBC6611BDF23A000C052F5 /* UserViewController.swift in Sources */,
+				71EBC6581BDF23A000C052F5 /* UserModels.swift in Sources */,
+				71EBC6551BDF23A000C052F5 /* UserInteractor.swift in Sources */,
+				71EBC65B1BDF23A000C052F5 /* UserPresenter.swift in Sources */,
+				71EBC6681BDF26E600C052F5 /* User.swift in Sources */,
+				71EBC65E1BDF23A000C052F5 /* UserRouter.swift in Sources */,
+				71EBC6521BDF23A000C052F5 /* UserConfigurator.swift in Sources */,
 				71EBC6001BDF22D100C052F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +326,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71EBC6151BDF22D100C052F5 /* WhenToMockTests.swift in Sources */,
+				71EBC6621BDF23A000C052F5 /* UserViewController.swift in Sources */,
+				71EBC66C1BDF2D6E00C052F5 /* UserViewControllerTests.swift in Sources */,
+				71EBC65F1BDF23A000C052F5 /* UserRouter.swift in Sources */,
+				71EBC6561BDF23A000C052F5 /* UserInteractor.swift in Sources */,
+				71EBC6651BDF23A000C052F5 /* UserWorker.swift in Sources */,
+				71EBC6691BDF26E600C052F5 /* User.swift in Sources */,
+				71EBC6591BDF23A000C052F5 /* UserModels.swift in Sources */,
+				71EBC65C1BDF23A000C052F5 /* UserPresenter.swift in Sources */,
+				71EBC6531BDF23A000C052F5 /* UserConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +342,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71EBC6201BDF22D100C052F5 /* WhenToMockUITests.swift in Sources */,
+				71EBC6631BDF23A000C052F5 /* UserViewController.swift in Sources */,
+				71EBC6601BDF23A000C052F5 /* UserRouter.swift in Sources */,
+				71EBC6571BDF23A000C052F5 /* UserInteractor.swift in Sources */,
+				71EBC6661BDF23A000C052F5 /* UserWorker.swift in Sources */,
+				71EBC66A1BDF26E600C052F5 /* User.swift in Sources */,
+				71EBC65A1BDF23A000C052F5 /* UserModels.swift in Sources */,
+				71EBC65D1BDF23A000C052F5 /* UserPresenter.swift in Sources */,
+				71EBC6541BDF23A000C052F5 /* UserConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
